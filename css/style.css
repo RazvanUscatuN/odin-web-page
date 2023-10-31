@@ -209,3 +209,15 @@ ul {
     border: 2px solid white;
     font-size: 18px;
 }
+
+/* footer style */
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: rgba(255, 255, 255, 0.842);
+    padding:30px;
+    font-size:20px;
+}
