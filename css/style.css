@@ -18,6 +18,12 @@ ul {
     padding: 0;
 }
 
+.main-content {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
 /* header style modifications */
 
 .header-page {
@@ -38,21 +44,6 @@ ul {
     gap:20px;
     font-size: 15px;
 }
-
-.main-content {
-    display: flex;
-    flex-direction: column;
-    flex-grow: 1;
-}
-
-/* .first-block,
-.second-block,
-.third-block,
-.forth-block {
-    display: flex;
-    flex-direction: column;
-    flex-grow:1;
-} */
 
 
 /* first block style */
@@ -121,6 +112,7 @@ ul {
 
 .second-block .container {
     display:flex;
+    justify-content: center;
     gap: 30px;
     text-align: center;
     padding: 10px 20px;
@@ -140,5 +132,38 @@ ul {
     padding: 20px;
 }
 
+/* third block style */
+
+.third-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+    min-height: 200px;
+    padding: 20px;
+}
+
+.third-block .container {
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-items: center;
+    padding: 10px 160px;
+    gap:10px;
+}
+
+.third-block .container .quote-text {
+    font-size: 36px;
+    font-weight: 300;
+    color: #1F2937;
+}
+
+.third-block .container .quote-author {
+    display: flex;
+    align-self: flex-end;
+    font-weight: bold;
+    font-size: 20px;
+}
 
 
