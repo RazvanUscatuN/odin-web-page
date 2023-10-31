@@ -160,10 +160,52 @@ ul {
 }
 
 .third-block .container .quote-author {
-    display: flex;
     align-self: flex-end;
     font-weight: bold;
     font-size: 20px;
 }
 
+.first-block,
+.second-block,
+.third-block,
+.forth-block {
+    flex-grow: 1;
+}
 
+/* forth block style */
+
+.forth-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.forth-block .container {
+    display:flex;
+    gap: 100px;
+    background-color: #3882F6;
+    padding: 40px 150px;
+    border-radius: 8px;;
+   
+}
+
+.forth-block .container .header {
+    font-size: 20px;
+    font-weight: 800;
+    color: #E5E7EB;
+}
+
+.forth-block .text {
+    color: #e5e7ebd5
+}
+
+.forth-block .sign-up {
+    background-color: #3882F6;
+    color: white;
+    max-width: 120px;
+    border-radius: 6px;
+    padding: 10px 20px;
+    border: 2px solid white;
+    font-size: 18px;
+}
