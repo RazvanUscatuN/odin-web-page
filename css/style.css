@@ -75,8 +75,9 @@ ul {
 }
 
 .first-block .right-side img {
-    display: flex;
-    flex-grow: 1;
+    min-width: 500px;
+    max-height: 250px;
+    
 }
 
 .first-block .left-side button {
@@ -108,15 +109,17 @@ ul {
    font-size: 36px;
    font-weight: 800;
    color: #1F2937;
+   margin-top: 30px;
 }
 
 .second-block .container {
     display:flex;
     justify-content: center;
-    gap: 30px;
+    gap: 40px;
     text-align: center;
     padding: 10px 20px;
     flex-wrap: wrap;
+    padding: 40px;
     
 }
 
@@ -130,6 +133,13 @@ ul {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     margin-bottom: 25px;
     padding: 20px;
+    border: 2px solid blue;
+    border-radius: 8px;
+    gap: 10px;
+}
+
+.second-block .container img {
+    border-radius: 8px;
 }
 
 /* third block style */
@@ -141,7 +151,7 @@ ul {
     align-items: center;
     background-color: #E5E7EB;
     min-height: 200px;
-    padding: 20px;
+    padding: 80px;
 }
 
 .third-block .container {
@@ -150,7 +160,10 @@ ul {
     justify-self: center;
     align-items: center;
     padding: 10px 160px;
-    gap:10px;
+    gap:20px;
+    max-width: 900px;
+    min-width: 800px;
+
 }
 
 .third-block .container .quote-text {
@@ -178,6 +191,7 @@ ul {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 100px;
     
 }
 
@@ -186,7 +200,8 @@ ul {
     gap: 100px;
     background-color: #3882F6;
     padding: 40px 150px;
-    border-radius: 8px;;
+    border-radius: 8px;
+    flex-shrink: 0;
    
 }
 
@@ -194,6 +209,7 @@ ul {
     font-size: 20px;
     font-weight: 800;
     color: #E5E7EB;
+   
 }
 
 .forth-block .text {
@@ -207,7 +223,8 @@ ul {
     border-radius: 6px;
     padding: 10px 20px;
     border: 2px solid white;
-    font-size: 18px;
+    font-size: 17px;
+    flex-shrink: 0;
 }
 
 /* footer style */
@@ -218,6 +235,6 @@ ul {
     align-items: center;
     background-color: #1F2937;
     color: rgba(255, 255, 255, 0.842);
-    padding:30px;
-    font-size:20px;
+    padding:20px;
+    font-size:12px;
 }
